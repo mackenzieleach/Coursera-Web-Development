@@ -1,3 +1,70 @@
-p {
-	color: red;
+* {
+	box-sizing: border-box;
 }
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:black;
+}
+
+#header-nav{
+	background-color: #e4cbf5;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 50px;
+}
+.navbar-brand h1 {
+	color: black;
+	text-align: left;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin-top: -35px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	background: #f9deff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+}
+#nav-list a:hover {
+  background: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+#our-menu {
+	font-size: 1.75em;
+	padding-bottom: 20px;
+	color:black;
+	font-weight: bold;
+}
+#home-tiles{
+	background-color: #e4cbf5;
+	width: 100%;
+	height: 1000px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#chicken h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+
